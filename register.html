@@ -1,0 +1,100 @@
+<body>
+
+
+    <div data-page="register" class="page no-navbar no-toolbar no-swipeback">
+
+	<div class="page-content login-screen-content formku" style="background: dodgerblue;">
+            
+            <div class="login-screen-title" style="margin-bottom=20px;">Daftar</div>          
+<div id="loding_register"> </div>
+            <form style="color: white;">
+                <div class="list-block">
+
+           
+
+                    <ul class="login">
+                        <li class="item-content">
+						
+                            <div class="item-inner">
+                                <div class="item-title "><i class="fa fa-user icon-register" style='font-size:20px; color: white;'></i></div>
+                                <div class="item-input">
+                                    <input type="text" name="username" id="nama" placeholder="Masukan Nama Lengkap Anda" style="background-color: rgba(255, 255, 255, 0.54);margin-left: -50px;border-radius: 10px;margin-bottom: 20px; padding-left:6px;">
+                                </div>
+                            </div>
+                        </li>
+						
+						 <li class="item-content">
+						
+                            <div class="item-inner">
+                                <div class="item-title "><i class="fa fa-envelope icon-register" style='font-size:20px; color: white;'></i></div>
+                                <div class="item-input">
+                                    <input type="email" name="email" id="email" placeholder="masukan email anda" style="background-color: rgba(255, 255, 255, 0.54);margin-left: -50px;border-radius: 10px;margin-bottom: 20px; padding-left:6px;">
+                                </div>
+                            </div>
+                        </li>
+						
+						 <li class="item-content">
+						
+                            <div class="item-inner">
+                                <div class="item-title "><i class="fa fa-mobile icon-register" style='font-size:20px; color: white;'></i></div>
+                                <div class="item-input">
+                                    <input type="number" name="no_hp" id="hp" placeholder="masukan No HP anda" style="background-color: rgba(255, 255, 255, 0.54);margin-left: -50px;border-radius: 10px;margin-bottom: 20px; padding-left:6px;">
+                                </div>
+                            </div>
+                        </li>
+						
+							<li class="item-content" style="width: 350px;">
+						<div class="item-title "><i class="fa fa-child icon-register" style='font-size:20px; color: white;'></i></div>
+						<div class="item-input" style="background-color: rgba(255, 255, 255, 0.54);margin-left: -70px;border-radius: 10px; padding-left:6px;">
+						
+						<select id="ph" name="perangkat_daerah">
+									<option value=""> Pilih </option>
+									<option value="5">Asisten</option>
+									<option value="6">Staf Ahli</option>
+									<option value="7">Dinas/Badan</option>
+									<option value="8">Bagian</option>
+									<option value="9">Camat</option>
+									<option value="10">Lain - Lain</option>
+
+								</select>
+							</div>
+						</li>
+						<br>
+						
+						<li class="item-content" style="width: 350px;">
+						<div class="item-title "><i class="fa fa-briefcase icon-register" style='font-size:20px; color: white;'></i></div>
+						<div class="item-input" style="background-color: rgba(255, 255, 255, 0.54);margin-left: -70px;border-radius: 10px; padding-left:6px;">
+						
+						<select id="nama_pd" name="pilihan_pd">
+							
+								
+							
+								</select>
+							</div>
+						</li>
+								
+								
+						
+                        <li class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title "><i class="fa fa-eye icon-register" style='font-size:20px; color: white;'></i></div>
+                                <div class="item-input">
+                                    <input type="password" name="password" id="pass" placeholder="masukan password anda" style="background-color: rgba(255, 255, 255, 0.54);margin-left: -50px;border-radius: 10px;margin-bottom: 20px; padding-left:6px; margin-top:12px;">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list-block" id="loding_login">
+                    <ul>
+                        <li>
+						 <input type="hidden" id="fcm_token">
+                            <a href="#" class="button-intro button-round login"  style="margin-bottom: 60px; "id="daftar"><span class="intro">Daftar</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>

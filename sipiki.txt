@@ -1,0 +1,10 @@
+keytool -genkey -v -keystore sipiki-key.keystore -alias sipiki-key -keyalg RSA -keysize 2048 -validity 10000
+
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore sipiki-key.keystore android-release-unsigned.apk sipiki-key
+
+zipalign -v 4 android-release-unsigned.apk SIPiki.apk
+
+082293283824
+
+sipiki adalah aplikasi yang di tujukan untuk meningkatkan kerja para aparatur sipil negara(ASN) , aplikasi sipiki ini menilai dan dapat mengurutkan ASN yang terbaik tentu dengan nilai skor yang tinggi sampai dengan ASN yang mempunyai nilai terburuk, di harapkan ini mampu menjadi tolak ukur pimpinan untuk mengambil keputusan kedapan nanti

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "747241226325",
+    "firebase_url": "https://sipiki-797cc.firebaseio.com",
+    "project_id": "sipiki-797cc",
+    "storage_bucket": "sipiki-797cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747241226325:android:f10a4724f39d3d89",
+        "android_client_info": {
+          "package_name": "com.tarsiustech.sipiki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747241226325-sapcdq6ibt7mf63pn820hsv2bqc4s89r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTaGAzCtWMS0oqusUOPze1EOr0t6Lr-U0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
